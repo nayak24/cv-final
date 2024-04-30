@@ -1,0 +1,19 @@
+description: Ultralytics best model trained on /home/nayakan1/code/cv_project/datasets/data_augmented/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-04-29T14:02:03.693828'
+version: 8.0.196
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: elbow positive
+  1: fingers positive
+  2: forearm fracture
+  3: humerus fracture
+  4: humerus
+  5: shoulder fracture
+  6: wrist positive
